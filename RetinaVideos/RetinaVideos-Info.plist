@@ -7,11 +7,15 @@
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>mp4</string>
+			</array>
 			<key>CFBundleTypeRole</key>
 			<string>QLGenerator</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>SUPPORTED_UTI_TYPE</string>
+				<string>public.movie</string>
 			</array>
 		</dict>
 	</array>
@@ -51,10 +55,6 @@
 	<string>Copyright © 2013 Pickled Code. All rights reserved.</string>
 	<key>QLNeedsToBeRunInMainThread</key>
 	<false/>
-	<key>QLPreviewHeight</key>
-	<real>600</real>
-	<key>QLPreviewWidth</key>
-	<real>800</real>
 	<key>QLSupportsConcurrentRequests</key>
 	<false/>
 	<key>QLThumbnailMinimumSize</key>
