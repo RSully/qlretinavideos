@@ -1,3 +1,7 @@
+***Warning: this does not work (...yet?)***
+
+See this issue for more info: https://github.com/Nyx0uf/qlImageSize/issues/4
+
 ## Helpful links:
 
 Apple:
