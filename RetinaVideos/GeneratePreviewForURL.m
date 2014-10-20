@@ -23,13 +23,12 @@ OSStatus GeneratePreviewForURL(void *thisInterface, QLPreviewRequestRef preview,
     
     NSDictionary *properties = @{
         (__bridge NSString *)kQLPreviewPropertyHeightKey: @(round(size.height / 2.0)),
-        (__bridge NSString *)kQLPreviewPropertyWidthKey: @(round(size.width / 2.0)),
-        (__bridge NSString *)kQLPreviewPropertyDisplayNameKey: @"Test"
+        (__bridge NSString *)kQLPreviewPropertyWidthKey: @(round(size.width / 2.0))
     };
     
-    NSLog(@"***** Sending to URLRep");
-    NSLog(@"URLRep original size: %@", NSStringFromSize(NSSizeFromCGSize(size)));
-    NSLog(@"URLRep with props: %@", properties);
+    // NSLog(@"***** Sending to URLRep");
+    // NSLog(@"URLRep original size: %@", NSStringFromSize(NSSizeFromCGSize(size)));
+    // NSLog(@"URLRep with props: %@", properties);
     
 //    CFStringRef keys[] = {kQLPreviewPropertyDisplayNameKey};
 //    CFStringRef vals[] = {CFSTR("Test")};
