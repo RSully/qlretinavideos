@@ -1,4 +1,8 @@
-***Warning: this does not work (...yet?)***
+This QuickLook generator sets the width/height of videos to half so that they display 1:1 on Retina displays.
+
+## Compatibility
+
+Does not work on <= 10.9.
 
 See this issue for more info: https://github.com/Nyx0uf/qlImageSize/issues/4
 
